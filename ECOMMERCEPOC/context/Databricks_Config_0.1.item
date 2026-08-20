@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_xOCt8Ju5EfGNxNMMjfiPAg" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_xOCt8Zu5EfGNxNMMjfiPAg" comment="" name="databricksHost" prompt="databricksHost?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="https://dbc-8035df0f-ba10.cloud.databricks.com/"/>
+  <contextParameter xmi:id="_xOCt8pu5EfGNxNMMjfiPAg" comment="" name="databricksJobId" prompt="databricksJobId?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="189861365822100"/>
+  <contextParameter xmi:id="_xOCt85u5EfGNxNMMjfiPAg" comment="" name="databricksToken" prompt="databricksToken?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="replace-locally"/>
+</talendfile:ContextType>

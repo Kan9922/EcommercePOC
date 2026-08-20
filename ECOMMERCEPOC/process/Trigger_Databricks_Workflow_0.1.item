@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" name="databricksToken" prompt="databricksToken?" promptNeeded="true" repositoryContextId="_xNi-sJu5EfGNxNMMjfiPAg" type="id_String" value="replace-locally" internalId="_67QdQJyBEfGrD4MRdgD_5g"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:Vs+75M1V50QbfEUHYEfBK+OroQ4V3PEN0z8FTnMZ" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="JDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gDLiB34oc94Ayl7Yb5Qa1K1KXzPgP/aAmNsT0m/S" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+  </parameters>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="120" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="String host = &quot;dbc-8035df0f-ba10.cloud.databricks.com&quot;;&#xD;&#xA;String token = context.databricksToken;&#xD;&#xA;String jobId = &quot;189861365822100&quot;;&#xD;&#xA;&#xD;&#xA;java.net.URL startUrl =&#xD;&#xA;    new java.net.URL(&quot;https://&quot; + host + &quot;/api/2.1/jobs/run-now&quot;);&#xD;&#xA;&#xD;&#xA;java.net.HttpURLConnection startConn =&#xD;&#xA;    (java.net.HttpURLConnection) startUrl.openConnection();&#xD;&#xA;&#xD;&#xA;startConn.setRequestMethod(&quot;POST&quot;);&#xD;&#xA;startConn.setRequestProperty(&quot;Authorization&quot;, &quot;Bearer &quot; + token);&#xD;&#xA;startConn.setRequestProperty(&quot;Content-Type&quot;, &quot;application/json&quot;);&#xD;&#xA;startConn.setDoOutput(true);&#xD;&#xA;startConn.setConnectTimeout(30000);&#xD;&#xA;startConn.setReadTimeout(30000);&#xD;&#xA;&#xD;&#xA;String requestBody = &quot;{\&quot;job_id\&quot;:&quot; + jobId + &quot;}&quot;;&#xD;&#xA;&#xD;&#xA;java.io.OutputStream output = startConn.getOutputStream();&#xD;&#xA;output.write(requestBody.getBytes(&quot;UTF-8&quot;));&#xD;&#xA;output.flush();&#xD;&#xA;output.close();&#xD;&#xA;&#xD;&#xA;int startStatus = startConn.getResponseCode();&#xD;&#xA;&#xD;&#xA;java.io.InputStream startStream;&#xD;&#xA;&#xD;&#xA;if (startStatus >= 400) {&#xD;&#xA;    startStream = startConn.getErrorStream();&#xD;&#xA;} else {&#xD;&#xA;    startStream = startConn.getInputStream();&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;java.io.BufferedReader startReader =&#xD;&#xA;    new java.io.BufferedReader(&#xD;&#xA;        new java.io.InputStreamReader(startStream, &quot;UTF-8&quot;)&#xD;&#xA;    );&#xD;&#xA;&#xD;&#xA;StringBuilder startText = new StringBuilder();&#xD;&#xA;String startLine;&#xD;&#xA;&#xD;&#xA;while ((startLine = startReader.readLine()) != null) {&#xD;&#xA;    startText.append(startLine);&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;startReader.close();&#xD;&#xA;&#xD;&#xA;String startResponse = startText.toString();&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;Databricks HTTP status: &quot; + startStatus);&#xD;&#xA;System.out.println(&quot;Databricks response: &quot; + startResponse);&#xD;&#xA;&#xD;&#xA;if (startStatus != 200) {&#xD;&#xA;    throw new RuntimeException(&#xD;&#xA;        &quot;Databricks job could not start. HTTP &quot;&#xD;&#xA;        + startStatus + &quot;: &quot; + startResponse&#xD;&#xA;    );&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;int runIdStart = startResponse.indexOf(&quot;\&quot;run_id\&quot;&quot;);&#xD;&#xA;&#xD;&#xA;if (runIdStart &lt; 0) {&#xD;&#xA;    throw new RuntimeException(&#xD;&#xA;        &quot;run_id was not found in Databricks response: &quot;&#xD;&#xA;        + startResponse&#xD;&#xA;    );&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;int colonPosition = startResponse.indexOf(&quot;:&quot;, runIdStart);&#xD;&#xA;int commaPosition = startResponse.indexOf(&quot;,&quot;, colonPosition);&#xD;&#xA;&#xD;&#xA;if (commaPosition &lt; 0) {&#xD;&#xA;    commaPosition = startResponse.indexOf(&quot;}&quot;, colonPosition);&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;String runId =&#xD;&#xA;    startResponse.substring(colonPosition + 1, commaPosition).trim();&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;Databricks run_id: &quot; + runId);&#xD;&#xA;&#xD;&#xA;boolean completed = false;&#xD;&#xA;boolean succeeded = false;&#xD;&#xA;&#xD;&#xA;for (int attempt = 1; attempt &lt;= 120; attempt++) {&#xD;&#xA;&#xD;&#xA;    Thread.sleep(15000);&#xD;&#xA;&#xD;&#xA;    java.net.URL statusUrl =&#xD;&#xA;        new java.net.URL(&#xD;&#xA;            &quot;https://&quot; + host + &quot;/api/2.1/jobs/runs/get?run_id=&quot; + runId&#xD;&#xA;        );&#xD;&#xA;&#xD;&#xA;    java.net.HttpURLConnection statusConn =&#xD;&#xA;        (java.net.HttpURLConnection) statusUrl.openConnection();&#xD;&#xA;&#xD;&#xA;    statusConn.setRequestMethod(&quot;GET&quot;);&#xD;&#xA;    statusConn.setRequestProperty(&quot;Authorization&quot;, &quot;Bearer &quot; + token);&#xD;&#xA;    statusConn.setRequestProperty(&quot;Content-Type&quot;, &quot;application/json&quot;);&#xD;&#xA;    statusConn.setConnectTimeout(30000);&#xD;&#xA;    statusConn.setReadTimeout(30000);&#xD;&#xA;&#xD;&#xA;    int statusCode = statusConn.getResponseCode();&#xD;&#xA;&#xD;&#xA;    java.io.InputStream statusStream;&#xD;&#xA;&#xD;&#xA;    if (statusCode >= 400) {&#xD;&#xA;        statusStream = statusConn.getErrorStream();&#xD;&#xA;    } else {&#xD;&#xA;        statusStream = statusConn.getInputStream();&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    java.io.BufferedReader statusReader =&#xD;&#xA;        new java.io.BufferedReader(&#xD;&#xA;            new java.io.InputStreamReader(statusStream, &quot;UTF-8&quot;)&#xD;&#xA;        );&#xD;&#xA;&#xD;&#xA;    StringBuilder statusText = new StringBuilder();&#xD;&#xA;    String statusLine;&#xD;&#xA;&#xD;&#xA;    while ((statusLine = statusReader.readLine()) != null) {&#xD;&#xA;        statusText.append(statusLine);&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    statusReader.close();&#xD;&#xA;&#xD;&#xA;    String statusResponse = statusText.toString();&#xD;&#xA;&#xD;&#xA;    System.out.println(&#xD;&#xA;        &quot;Databricks status check &quot; + attempt + &quot;: &quot;&#xD;&#xA;        + statusResponse&#xD;&#xA;    );&#xD;&#xA;&#xD;&#xA;    if (statusCode != 200) {&#xD;&#xA;        throw new RuntimeException(&#xD;&#xA;            &quot;Could not check Databricks run status. HTTP &quot;&#xD;&#xA;            + statusCode + &quot;: &quot; + statusResponse&#xD;&#xA;        );&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    int stateStart = statusResponse.indexOf(&quot;\&quot;state\&quot;:{&quot;);&#xD;&#xA;&#xD;&#xA;    if (stateStart &lt; 0) {&#xD;&#xA;        stateStart = statusResponse.indexOf(&quot;\&quot;state\&quot;: {&quot;);&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    if (stateStart &lt; 0) {&#xD;&#xA;        throw new RuntimeException(&#xD;&#xA;            &quot;Top-level Databricks state was not found: &quot;&#xD;&#xA;            + statusResponse&#xD;&#xA;        );&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    int stateEnd = statusResponse.indexOf(&quot;}&quot;, stateStart);&#xD;&#xA;&#xD;&#xA;    if (stateEnd &lt; 0) {&#xD;&#xA;        throw new RuntimeException(&#xD;&#xA;            &quot;Top-level Databricks state could not be read: &quot;&#xD;&#xA;            + statusResponse&#xD;&#xA;        );&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    String topLevelState =&#xD;&#xA;        statusResponse.substring(stateStart, stateEnd + 1);&#xD;&#xA;&#xD;&#xA;    System.out.println(&#xD;&#xA;        &quot;Top-level Databricks job state: &quot; + topLevelState&#xD;&#xA;    );&#xD;&#xA;&#xD;&#xA;    boolean topLevelTerminated =&#xD;&#xA;        topLevelState.indexOf(&#xD;&#xA;            &quot;\&quot;life_cycle_state\&quot;:\&quot;TERMINATED\&quot;&quot;&#xD;&#xA;        ) >= 0&#xD;&#xA;        || topLevelState.indexOf(&#xD;&#xA;            &quot;\&quot;life_cycle_state\&quot;: \&quot;TERMINATED\&quot;&quot;&#xD;&#xA;        ) >= 0;&#xD;&#xA;&#xD;&#xA;    boolean topLevelSuccess =&#xD;&#xA;        topLevelState.indexOf(&#xD;&#xA;            &quot;\&quot;result_state\&quot;:\&quot;SUCCESS\&quot;&quot;&#xD;&#xA;        ) >= 0&#xD;&#xA;        || topLevelState.indexOf(&#xD;&#xA;            &quot;\&quot;result_state\&quot;: \&quot;SUCCESS\&quot;&quot;&#xD;&#xA;        ) >= 0;&#xD;&#xA;&#xD;&#xA;    boolean topLevelInternalError =&#xD;&#xA;        topLevelState.indexOf(&#xD;&#xA;            &quot;\&quot;life_cycle_state\&quot;:\&quot;INTERNAL_ERROR\&quot;&quot;&#xD;&#xA;        ) >= 0&#xD;&#xA;        || topLevelState.indexOf(&#xD;&#xA;            &quot;\&quot;life_cycle_state\&quot;: \&quot;INTERNAL_ERROR\&quot;&quot;&#xD;&#xA;        ) >= 0;&#xD;&#xA;&#xD;&#xA;    boolean topLevelSkipped =&#xD;&#xA;        topLevelState.indexOf(&#xD;&#xA;            &quot;\&quot;life_cycle_state\&quot;:\&quot;SKIPPED\&quot;&quot;&#xD;&#xA;        ) >= 0&#xD;&#xA;        || topLevelState.indexOf(&#xD;&#xA;            &quot;\&quot;life_cycle_state\&quot;: \&quot;SKIPPED\&quot;&quot;&#xD;&#xA;        ) >= 0;&#xD;&#xA;&#xD;&#xA;    if (topLevelTerminated) {&#xD;&#xA;        completed = true;&#xD;&#xA;        succeeded = topLevelSuccess;&#xD;&#xA;        break;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    if (topLevelInternalError || topLevelSkipped) {&#xD;&#xA;        completed = true;&#xD;&#xA;        succeeded = false;&#xD;&#xA;        break;&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;if (!completed) {&#xD;&#xA;    throw new RuntimeException(&#xD;&#xA;        &quot;Databricks job did not finish within 30 minutes. run_id=&quot;&#xD;&#xA;        + runId&#xD;&#xA;    );&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;if (!succeeded) {&#xD;&#xA;    throw new RuntimeException(&#xD;&#xA;        &quot;Databricks job finished unsuccessfully. run_id=&quot;&#xD;&#xA;        + runId&#xD;&#xA;    );&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;System.out.println(&#xD;&#xA;    &quot;Databricks workflow completed successfully. run_id=&quot; + runId&#xD;&#xA;);"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="93;174;241" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="93;174;241"/>
+  </subjob>
+</talendfile:ProcessType>

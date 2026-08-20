@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_3l0IYJr1EfGNxNMMjfiPAg" name="SQLServerSource_Orders" id="_ZrpasJr1EfGNxNMMjfiPAg" label="SQLServerSource_Orders" dataPackage="_3o_YMJr1EfGNxNMMjfiPAg" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver:// KANINFOCOM:1433;DatabaseName= EcommerceDB;TrustServerCertificate=True" dbVersionString="MSSQL_PROP" Port="1433" Username="talend_user" Password="enc:system.encryption.key.v1:BnA44ivRP4SESpUmBqK6zcz2OEkhTJ52pUofrTyTpfY9F9dr5YynqiY=" ServerName=" KANINFOCOM" DatasourceName="" FileFieldName="" SID=" EcommerceDB" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="TrustServerCertificate=True" StandardSQL="true" SQLMode="false" UiSchema="dbo" supportNLS="false">
+    <taggedValue xmi:id="_3l19kJr1EfGNxNMMjfiPAg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_3mmLgJr1EfGNxNMMjfiPAg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_3m01AJr1EfGNxNMMjfiPAg" tag="Status" value=""/>
+    <taggedValue xmi:id="_3m01AZr1EfGNxNMMjfiPAg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_3m01Apr1EfGNxNMMjfiPAg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_3m01A5r1EfGNxNMMjfiPAg" tag="Description" value=""/>
+    <taggedValue xmi:id="_3m01BJr1EfGNxNMMjfiPAg" tag="Author" value=""/>
+    <taggedValue xmi:id="_3m01BZr1EfGNxNMMjfiPAg" tag="otherParameter"/>
+    <taggedValue xmi:id="_3nXnkJr1EfGNxNMMjfiPAg" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_3nXnkZr1EfGNxNMMjfiPAg" tag="DB ProductVersion" value="15.00.2000"/>
+    <taggedValue xmi:id="_3nXnkpr1EfGNxNMMjfiPAg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_3l19kZr1EfGNxNMMjfiPAg" key="CONN_PARA_KEY_USERNAME" value="talend_user"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_3o_YMJr1EfGNxNMMjfiPAg" name=" EcommerceDB" dataManager="_3l0IYJr1EfGNxNMMjfiPAg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3pAmUJr1EfGNxNMMjfiPAg" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3pAmUZr1EfGNxNMMjfiPAg" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

@@ -1,0 +1,11 @@
+{
+  "itemId" : "_Dm9voJsCEfGNxNMMjfiPAg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_xNi-sJu5EfGNxNMMjfiPAg",
+    "parameterList" : [ {
+      "id" : "_xOCt85u5EfGNxNMMjfiPAg",
+      "name" : "databricksToken"
+    } ]
+  } ]
+}
